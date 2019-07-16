@@ -5,5 +5,5 @@ function addElementToBeginningOfArray (arr,el){
 }
 
 function destructivelyAddElementToBeginningOfArray(arr,el){
-  
+  arr.push(el)
 }
