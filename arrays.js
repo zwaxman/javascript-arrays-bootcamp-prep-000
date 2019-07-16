@@ -21,6 +21,11 @@ function destructivelyAddElementToEndOfArray(arr,el){
 function accessElementInArray(arr,i){
   return arr[i]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(arr){
+  arr.shift()
+  return arr
+}
 //   describe('accessElementInArray(array, index)', () => {
 //     it('accesses the element in array at the given index', () => {
 //       expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
