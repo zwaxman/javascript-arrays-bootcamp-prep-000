@@ -31,20 +31,11 @@ function removeElementFromBeginningOfArray(arr){
   var newArr=arr.slice(1);
   return newArr
 }
-
-//   describe('removeElementFromBeginningOfArray(array)', () => {
-//     it('removes the first element from the array', () => {
-//       expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
-//     })
-
-//     it('does not alter the original array', () => {
-//       const array = [1, 2, 3];
-
-//       removeElementFromBeginningOfArray(array);
-
-//       expect(array).to.eql([1, 2, 3]);
-//     })
-//   })
+ 
+ function destructivelyRemoveElementFromEndOfArray(arr){
+   arr.pop()
+   return arr
+ }
 
 //   describe('destructivelyRemoveElementFromEndOfArray(array)', () => {
 //     it('returns the array with the last element removed', () => {
